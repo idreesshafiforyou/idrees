@@ -1,1 +1,1 @@
-window.LOGO_IMG='images/branding/kuppayam-logo.png.png'
+window.LOGO_IMG='images/branding/kuppayam-logo.png'
