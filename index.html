@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>കുപ്പായം 3.0 — Winter Intensive Camp</title>
+<meta name="description" content="Kuppayam 3.0, a Winter Intensive Camp for Classes 8, 9 and 10. 24–26 December 2026, WIRAS, Markaz Knowledge City.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manjari:wght@400;700&family=Noto+Serif+Malayalam:wght@500;800&family=Outfit:wght@300;400;600&family=Saira:wght@400&display=swap">
+<style>
+:root{--c1:#023020;--c2:#355E3B;--c3:#4F7942;--c4:#50C878;--c5:#c1652c;--c6:#7CFC00;--c7:#90EE90;--txt:#eafbe9;--mut:#d8c9b8;
+--ml:'Noto Serif Malayalam','Manjari',serif;--sans:'Outfit',system-ui,sans-serif;--ease:cubic-bezier(.2,.7,.2,1)}
+*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{background:var(--c1);color:var(--txt);font-family:var(--sans);line-height:1.6;overflow-x:hidden;padding-top:env(safe-area-inset-top,0)}
+body:before{content:"";position:fixed;inset:0;z-index:-1;background:radial-gradient(60% 40% at 15% 10%,#355E3B88,transparent),radial-gradient(50% 40% at 90% 60%,#4F794255,transparent),var(--c1)}
+section{padding:96px 20px;position:relative}.w{max-width:1100px;margin:auto}
+h2{font-family:var(--ml);font-size:clamp(1.7rem,4vw,2.6rem);font-weight:800;margin-bottom:8px}
+.ey{color:var(--c7);letter-spacing:.22em;text-transform:uppercase;font-size:.75rem}
+.sub{color:var(--mut);max-width:620px;margin-bottom:36px}
+.draft{display:inline-block;font-size:.7rem;border:1px dashed var(--c7);color:var(--c7);border-radius:99px;padding:2px 10px;margin-left:8px;vertical-align:middle;letter-spacing:.05em}
+.glass{background:linear-gradient(135deg,#50C87822,#02302055);backdrop-filter:blur(18px) saturate(140%);-webkit-backdrop-filter:blur(18px) saturate(140%);border:1px solid #90EE9033;box-shadow:inset 0 1px 0 #ffffff26,0 20px 50px -20px #000a;border-radius:26px}
+.btn{display:inline-block;padding:13px 30px;border-radius:99px;color:#fff;text-decoration:none;font-weight:600;border:1px solid #90EE9055;background:linear-gradient(135deg,#4CBB1766,#50C87822);backdrop-filter:blur(12px);cursor:pointer;font:inherit;font-weight:600;transition:.4s var(--ease);box-shadow:0 0 30px -8px var(--c4)}
+.btn:hover{transform:translateY(-3px);box-shadow:0 0 40px -4px var(--c4)}.btn:disabled{opacity:.5;pointer-events:none}
+.rv{opacity:0;transform:translateY(34px);transition:opacity .9s var(--ease),transform .9s var(--ease);transition-delay:var(--d,0s)}.rv.in{opacity:1;transform:none}
+/* opening */
+#open{position:fixed;inset:0;z-index:100;background:radial-gradient(circle at 50% 50%,#355E3B,#023020 70%);display:grid;place-items:center;transition:opacity 1s var(--ease),visibility 1s,clip-path 1.2s var(--ease);clip-path:circle(150% at 50% 50%)}
+#open.done{opacity:0;visibility:hidden;clip-path:circle(0 at 50% 50%)}
+#open .lg{text-align:center;animation:lr 1.6s var(--ease) both}.bar{width:140px;height:2px;background:#ffffff22;margin:22px auto 0;overflow:hidden;border-radius:2px}.bar i{display:block;height:100%;background:var(--c6);animation:ld 1.8s var(--ease) both}
+@keyframes lr{from{opacity:0;transform:scale(.85);filter:blur(12px)}}@keyframes ld{from{transform:translateX(-100%)}}
+#ol img{width:min(70vw,360px);height:auto}
+.logo{font-family:var(--ml);font-weight:800;line-height:1.1}.ph{border:1px dashed var(--c7);color:var(--c7);border-radius:12px;padding:6px 12px;font-size:.72rem;display:inline-block}
+/* nav */
+nav{position:fixed;top:calc(12px + env(safe-area-inset-top,0));left:50%;transform:translateX(-50%);width:min(940px,calc(100% - 24px));z-index:50;display:flex;align-items:center;justify-content:space-between;padding:10px 14px 10px 22px;border-radius:99px;transition:.5s var(--ease)}
+nav.s{background:#02302099;box-shadow:0 10px 40px -10px #000}nav .m{font-family:var(--ml);font-weight:800}
+nav ul{display:flex;gap:4px;list-style:none;padding:0}nav a.l{color:var(--txt);text-decoration:none;padding:8px 14px;border-radius:99px;font-size:.9rem;transition:.3s}
+nav a.l:hover,nav a.l.on{background:#4CBB1744;box-shadow:inset 0 0 0 1px #90EE9055}
+#bg{display:none;background:none;border:0;color:#fff;font-size:1.6rem;cursor:pointer}
+@media(max-width:820px){#bg{display:block}nav ul{position:absolute;top:64px;left:0;right:0;flex-direction:column;padding:14px;border-radius:24px;background:#023020ee;backdrop-filter:blur(20px);border:1px solid #90EE9033;opacity:0;visibility:hidden;transform:translateY(-10px);transition:.4s var(--ease)}nav ul.o{opacity:1;visibility:visible;transform:none}nav .rg{display:none}}
+/* hero */
+#home{min-height:100svh;display:grid;place-items:center;text-align:center;overflow:hidden;padding-top:120px}
+.hbg{position:absolute;inset:-5%;z-index:-1; background:radial-gradient(40% 30% at 50% 100%,#7CFC0030,transparent),linear-gradient(180deg,#023020aa,#02302000 40%,#023020 100%),conic-gradient(from 200deg at 50% 120%,#50C878,#355E3B,#023020,#4F7942,#50C878);opacity:0;animation:fi 2s 1.8s forwards;background-size:cover;background-position:center}
+@keyframes fi{to{opacity:.85}}.hbg.img{background-size:cover}
+.mt{position:absolute;bottom:0;left:0;right:0;height:38%;background:linear-gradient(180deg,transparent,#02302099);clip-path:polygon(0 70%,12% 40%,25% 65%,40% 25%,55% 60%,70% 35%,85% 62%,100% 30%,100% 100%,0 100%);z-index:-1}
+.hero h1{font-family:var(--ml);font-weight:800;font-size:clamp(3.4rem,13vw,8.5rem);line-height:1.15;background:linear-gradient(180deg,#fff,#90EE90 70%,#50C878);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 6px 30px #00000066)}
+.tag{font-family:var(--ml);font-size:clamp(1.1rem,3.2vw,1.9rem);color:var(--c7);margin:6px 0 18px}
+.pill{display:inline-flex;flex-wrap:wrap;gap:6px 20px;justify-content:center;padding:12px 26px;border-radius:99px;margin-bottom:28px;font-size:.95rem}
+.sc{position:absolute;bottom:22px;left:50%;width:22px;height:36px;border:2px solid #90EE9088;border-radius:14px}.sc:after{content:"";position:absolute;left:8px;top:6px;width:2px;height:7px;background:var(--c7);animation:sd 1.6s infinite}@keyframes sd{to{transform:translateY(12px);opacity:0}}
+/* intro */
+#intro{padding:60px 20px 100px}.ib{max-width:900px;margin:auto;padding:clamp(28px,6vw,64px);text-align:center;transform-origin:50% 0;will-change:transform}.ib p{font-size:1.15rem;margin-bottom:18px;color:#dff5de}
+/* programs */
+.fl{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px}.fb{padding:9px 20px;border-radius:99px;border:1px solid #90EE9044;background:#02302066;color:var(--txt);cursor:pointer;font:inherit;transition:.3s}.fb.on{background:var(--c5);color:#02200f;border-color:var(--c6)}
+.pg{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px}
+.pc{overflow:hidden;transition:transform .5s var(--ease),opacity .4s;position:relative}.pc:hover{transform:translateY(-8px) scale(1.015)}.pc.h{display:none}
+.pi{height:140px;transition:transform .8s var(--ease)}.pc:hover .pi{transform:scale(1.1)}.pw{overflow:hidden}.pb{padding:20px}.pb h3{font-family:var(--ml);margin:4px 0}.pb p{color:var(--mut);font-size:.93rem}
+/* stats */
+.sg{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}.st{padding:30px;text-align:center}.st b{display:block;font-family:var(--ml);font-size:3rem;color:var(--c6);line-height:1.2}
+/* story */
+.sy{display:grid;gap:70px}.sr{display:grid;grid-template-columns:1.1fr 1fr;gap:34px;align-items:center}.sr:nth-child(even){direction:rtl}.sr>*{direction:ltr}
+.sv{height:300px;border-radius:40px 8px 40px 8px;position:relative;overflow:hidden}.sv:after{content:"";position:absolute;inset:18px;border:1px solid #fff4;border-radius:30px 6px 30px 6px}.sr h3{font-family:var(--ml);font-size:1.7rem;margin-bottom:8px}.sr .n{font-size:4rem;font-family:var(--ml);color:#90EE9033;line-height:1}
+@media(max-width:760px){.sr{grid-template-columns:1fr}.sr:nth-child(even){direction:ltr}.sv{height:200px}}
+/* timeline */
+.tl{position:relative;padding-left:44px}.tl:before{content:"";position:absolute;left:15px;top:0;bottom:0;width:2px;background:#90EE9022}.tl .ln{position:absolute;left:15px;top:0;width:2px;height:0;background:linear-gradient(var(--c6),var(--c4));transition:height 1.8s var(--ease);box-shadow:0 0 12px var(--c4)}
+.ts{padding:20px 24px;margin-bottom:18px;position:relative}.ts:before{content:attr(data-n);position:absolute;left:-44px;top:18px;width:32px;height:32px;border-radius:50%;background:var(--c1);border:2px solid var(--c4);display:grid;place-items:center;font-size:.85rem;color:var(--c6)}.ts h3{font-family:var(--ml)}.ts p{color:var(--mut)}
+/* schedule */
+.dt{display:flex;gap:10px;margin-bottom:24px;flex-wrap:wrap}.dt button{flex:1;min-width:100px;padding:14px;border-radius:20px;border:1px solid #90EE9044;background:#02302066;color:var(--txt);font:inherit;cursor:pointer;transition:.3s}.dt button.on{background:linear-gradient(135deg,#4CBB17aa,#50C87855);border-color:var(--c6)}.dt b{display:block;font-size:1.5rem;font-family:var(--ml)}
+.sl{display:grid;gap:12px}.si{display:grid;grid-template-columns:180px 1fr;gap:16px;padding:16px 20px;align-items:start;animation:up .6s var(--ease) both}.si time{color:var(--c6);font-weight:600;padding-top:2px}.si h4{font-weight:600}.si .mn{display:block;color:var(--c7);font-size:.9rem}.si .sd{color:var(--mut);font-size:.9rem;margin-top:6px}@keyframes up{from{opacity:0;transform:translateY(18px)}}
+@media(max-width:520px){.si{grid-template-columns:1fr;gap:2px}}
+/* testimonials / gallery slider */
+.sld{overflow:hidden;border-radius:30px;touch-action:pan-y}.trk{display:flex;transition:transform .7s var(--ease)}.sl1{min-width:100%;padding:6px}.q{padding:clamp(26px,5vw,52px);text-align:center}.q p{font-family:var(--ml);font-size:clamp(1.1rem,2.4vw,1.5rem)}.q small{display:block;margin-top:14px;color:var(--c7)}
+.ct{display:flex;justify-content:center;align-items:center;gap:14px;margin-top:18px}.ct button{width:46px;height:46px;border-radius:50%;border:1px solid #90EE9055;background:#02302099;color:#fff;font-size:1.2rem;cursor:pointer}.dots{display:flex;gap:8px}.dots i{width:8px;height:8px;border-radius:9px;background:#90EE9044;transition:.4s}.dots i.on{width:26px;background:var(--c6)}
+.gl{aspect-ratio:16/9;border-radius:24px;cursor:zoom-in;position:relative;overflow:hidden;width:100%;border:0;display:block}.gl span{position:absolute;left:18px;bottom:14px;background:#02302099;backdrop-filter:blur(8px);padding:4px 14px;border-radius:99px;font-size:.85rem}
+#lb{position:fixed;inset:0;z-index:90;background:#011a0fee;backdrop-filter:blur(14px);display:grid;place-items:center;opacity:0;visibility:hidden;transition:.45s var(--ease)}#lb.o{opacity:1;visibility:visible}#lb .im{width:min(92vw,1000px);aspect-ratio:16/9;border-radius:22px;transform:scale(.94);transition:.5s var(--ease)}#lb.o .im{transform:none}
+#lb button{position:absolute;background:#ffffff1a;border:1px solid #fff4;color:#fff;border-radius:50%;width:48px;height:48px;font-size:1.3rem;cursor:pointer;backdrop-filter:blur(8px)}
+/* about */
+.ag{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}.ac{padding:28px}.ac h3{font-family:var(--ml);color:var(--c7);margin-bottom:6px}.ac:nth-child(2){border-radius:60px 14px 60px 14px}.ac:nth-child(3){border-radius:14px 60px 14px 60px}
+/* faq */
+.fq{max-width:800px;margin:auto;display:grid;gap:12px}.fq button{all:unset;box-sizing:border-box;width:100%;padding:20px 24px;cursor:pointer;display:flex;justify-content:space-between;gap:12px;font-weight:600}.fq button:focus-visible{outline:2px solid var(--c6);border-radius:20px}.fq i{transition:.4s;color:var(--c6);font-style:normal;font-size:1.4rem}.fa{display:grid;grid-template-rows:0fr;transition:grid-template-rows .5s var(--ease)}.fa>div{overflow:hidden}.fa p{padding:0 24px 20px;color:var(--mut)}.fi.o .fa{grid-template-rows:1fr}.fi.o i{transform:rotate(45deg)}.fi{border-radius:22px}
+/* form */
+.fm{max-width:720px;margin:auto;padding:clamp(24px,5vw,48px);border-radius:44px 14px 44px 14px}.fd{margin-bottom:18px}.fd label{display:block;font-size:.88rem;color:var(--c7);margin-bottom:6px}
+.fd input,.fd select,.fd textarea{width:100%;padding:14px 16px;border-radius:16px;border:1px solid #90EE9044;background:#0230208c;color:#fff;font:inherit;transition:.3s}.fd input:focus,.fd select:focus,.fd textarea:focus{outline:0;border-color:var(--c6);box-shadow:0 0 0 3px #7CFC0022}.fd select option{background:#023020}
+.er{color:#ffb4a8;font-size:.82rem;min-height:1em}.dz{border:2px dashed #90EE9066;border-radius:20px;padding:26px;text-align:center;cursor:pointer;transition:.3s}.dz.dr,.dz:hover{background:#4CBB1722;border-color:var(--c6)}.dz img{max-height:140px;border-radius:12px;margin-top:10px}
+.pay{padding:14px 18px;border-radius:18px;background:#0230208c;margin-bottom:20px;font-size:.92rem;border:1px dashed var(--c7)}
+#ok{display:none;text-align:center;padding:30px 0}#ok .tk{font-size:3rem;color:var(--c6)}
+/* contact/footer */
+.cg{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}.cc{padding:24px;text-decoration:none;color:inherit;display:block;transition:.4s var(--ease)}a.cc:hover{transform:translateY(-5px)}.cc small{color:var(--c7);display:block}.cc b{font-weight:600;word-break:break-word}
+footer{margin-top:60px;padding:70px 20px 40px;background:linear-gradient(180deg,transparent,#011a0f);border-top:1px solid #90EE9022;text-align:center}footer .logo{font-size:3rem}footer ul{list-style:none;display:flex;flex-wrap:wrap;gap:6px 20px;justify-content:center;padding:0;margin:22px 0}footer a{color:var(--c7);text-decoration:none}.lg3{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:22px 0}
+#wa{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(18px,env(safe-area-inset-bottom));z-index:60;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;text-decoration:none;color:#fff;font-size:1.6rem;background:linear-gradient(135deg,#4CBB17aa,#023020aa);backdrop-filter:blur(14px);border:1px solid #90EE9077;box-shadow:0 0 30px -4px var(--c4);transition:.4s var(--ease)}#wa:hover{transform:scale(1.1) rotate(-6deg)}
+#up{position:fixed;left:16px;bottom:18px;z-index:60;width:44px;height:44px;border-radius:50%;border:1px solid #90EE9055;background:#02302099;color:#fff;cursor:pointer;opacity:0;pointer-events:none;transition:.4s}#up.v{opacity:1;pointer-events:auto}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01s!important;animation-delay:0s!important;transition-duration:.01s!important}html{scroll-behavior:auto}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div id="open" aria-hidden="true"><div class="lg"><div id="ol"><img src="images/branding/kuppayam-logo.png" alt="Kuppayam 3.0 logo"></div><div class="bar"><i></i></div></div></div>
+<nav class="glass" id="nav"><a href="#home" class="m" style="color:inherit;text-decoration:none">കുപ്പായം 3.0</a><button id="bg" aria-label="Menu" aria-expanded="false">☰</button><ul id="nl"></ul><a class="btn rg" href="#register" style="padding:9px 22px">Register</a></nav>
+<main>
+<section id="home" class="hero"><div class="hbg" id="hbg"></div><div class="mt"></div>
+<div class="w"><div id="hl"></div><p class="tag" id="htag"></p><div class="glass pill" id="hpill"></div><br><a href="#register" class="btn">Register now</a></div><div class="sc"></div></section>
+<section id="intro"><div class="glass ib" id="ib"><div class="ey" id="ie"></div><h2 id="it"></h2><div id="ip"></div><br><a href="#register" class="btn">Register</a></div></section>
+<section id="programs"><div class="w"><div class="ey">What we do </div><h2>Programs & Activities</h2><div class="fl" id="pf"></div><div class="pg" id="pg"></div></div></section>
+<section><div class="w"><div class="sg" id="sg"></div></div></section>
+<section id="story"><div class="w"><div class="ey">The experience </div><h2>Three days, one climb</h2><br><div class="sy" id="sy"></div></div></section>
+<section id="process"><div class="w"><div class="ey">How to join </div><h2>Application process</h2><p class="sub">Draft steps — confirm with the organisers on +91 80868 81019.</p><div class="tl" id="tl"><div class="ln"></div></div></div></section>
+<section id="schedule"><div class="w"><div class="ey">24 – 26 December 2026</div><h2>Daily schedule</h2><div class="dt" id="dt"></div><div class="sl" id="sl"></div></div></section>
+<section id="voices"><div class="w"><div class="ey">Voices</div><h2>What a camp can feel like</h2><br><div class="sld" id="ts"><div class="trk" id="tt"></div></div><div class="ct"><button id="tp" aria-label="Previous">‹</button><div class="dots" id="td"></div><button id="tn" aria-label="Next">›</button></div></div></section>
+<section id="gallery"><div class="w"><div class="ey">Gallery </div><h2>Moments</h2><br><div class="sld" id="gs"><div class="trk" id="gt"></div></div><div class="ct"><button id="gp" aria-label="Previous">‹</button><div class="dots" id="gd"></div><button id="gn" aria-label="Next">›</button></div></div></section>
+<section id="about"><div class="w"><div class="ey">About </div><h2>What is Kuppayam?</h2><p class="sub" id="ab"></p><div class="ag" id="ag"></div></div></section>
+<section id="faq"><div class="w"><div class="ey" style="text-align:center">Questions </div><h2 style="text-align:center;margin-bottom:30px">FAQ</h2><div class="fq" id="fq"></div></div></section>
+<section id="register"><div class="w"><div class="ey" style="text-align:center">Join Kuppayam 3.0</div><h2 style="text-align:center;margin-bottom:26px">Register</h2>
+<form class="glass fm rv" id="fm" novalidate>
+<div class="pay" id="pay"></div>
+<div class="fd"><label for="n">Full name *</label><input id="n" autocomplete="name"><div class="er"></div></div>
+<div class="fd"><label for="c">Class *</label><select id="c"><option value="">Select class</option><option>Class 8</option><option>Class 9</option><option>Class 10</option></select><div class="er"></div></div>
+<div class="fd"><label for="p">Contact number *</label><input id="p" type="tel" inputmode="tel" autocomplete="tel"><div class="er"></div></div>
+<div class="fd"><label for="e">Email address *</label><input id="e" type="email" autocomplete="email"><div class="er"></div></div>
+<div class="fd"><label for="a">Additional information</label><textarea id="a" rows="3"></textarea></div>
+<div class="fd"><label>Payment receipt * (image or PDF, max 5 MB)</label><div class="dz" id="dz" tabindex="0" role="button">Drag &amp; drop or tap to upload<div id="pv"></div></div><input id="f" type="file" accept="image/*,application/pdf" hidden><div class="er" id="fe"></div></div>
+<p style="font-size:.8rem;color:var(--mut);margin-bottom:16px" id="pn"></p>
+<button class="btn" id="sb" style="width:100%">Submit registration</button><div class="er" id="se" style="margin-top:8px"></div>
+<div id="ok"><div class="tk">✓</div><h3 style="font-family:var(--ml)">Registration details prepared</h3><p style="color:var(--mut)" id="okt"></p></div></form></div></section>
+<section id="contact"><div class="w"><div class="ey">Contact</div><h2>Get in touch</h2><br><div class="cg" id="cg"></div></div></section>
+</main>
+<footer><div id="fl"></div><p class="tag" id="ftag"></p><p>Winter Intensive Camp · 24, 25 and 26 December 2026 · WIRAS, Markaz Knowledge City</p><ul id="fn"></ul><div class="lg3" id="lg3"></div><a class="btn" href="#register">Register</a><p style="margin-top:30px;font-size:.8rem;color:var(--mut)" id="cp"></p></footer>
+<a id="wa" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">✆</a><button id="up" aria-label="Back to top">↑</button>
+<div id="lb" role="dialog" aria-modal="true"><div class="im" id="li"></div><button id="lc" style="top:18px;right:18px" aria-label="Close">✕</button><button id="lp" style="left:16px" aria-label="Previous">‹</button><button id="ln" style="right:16px" aria-label="Next">›</button></div>
+<script src="hero-data.js"></script>
+<script src="logo-data.js"></script>
+<script src="partner-logos-data.js"></script>
+<script src="idcard-data.js"></script>
+<script src="idcard.js"></script>
+<script>
+/* ============================================================
+   CONTENT — everything editable lives here. Edit text/arrays only.
+   IMAGES: put a URL (e.g. "images/gallery/g1.jpg") in any `img` field.
+   If `img` is empty, a green gradient placeholder is drawn.
+   LOGOS: set logos.*.src to your PNG path; empty = labelled placeholder.
+   ============================================================ */
+const CONTENT={
+campInfo:{name:"കുപ്പായം 3.0",tagline:"പുതിയ ആകാശങ്ങൾ, പുതിയ ചിറകുകൾ",subtitle:"Winter Intensive Camp",dates:"24 – 26 December 2026",venue:"WIRAS, Markaz Knowledge City",phone:"+91 80868 81019",wa:"918086881019",union:"Rewaq"},
+logos:{kuppayam:{src:window.LOGO_IMG,alt:"Kuppayam 3.0 logo"}, wiras:{src:window.PARTNER_LOGOS.wiras,alt:"WIRAS logo"},rewaq:{src:window.PARTNER_LOGOS.rewaq,alt:"Rewaq logo"},markaz:{src:window.PARTNER_LOGOS.markaz,alt:"Markaz Knowledge City logo"}},hero:{image:window.HERO_IMG},
+introduction:{eyebrow:"Welcome",title:"A winter to learn, stretch and take off",paras:["Kuppayam is a journey of discovery, growth and transformation. A three-day experience designed to nurture spirituality, strengthen character, explore talents and broaden perspectives.Through inspiring sessions, meaningful conversations, outdoor adventures and moments of togetherness, Kuppayam aims to help young minds reconnect with their values, discover their potential and prepare themselves for a purposeful future. Three days. Countless experiences. A lasting impact."]},
+programCategories:["All","Learn","Create","Explore","Grow"],
+programs:[ // replace
+{t:"Tilawathul Quran",c:"Learn",d:"A journey of reciting, understanding, and connecting deeply with the words of the Holy Quran.",img:"images/gallery/g12.jpg.jpg"},
+{t:"Career guidance",c:"Grow",d:"Discovering your strengths, exploring opportunities, and shaping a purposeful future.",img:"images/gallery/g14.jpg.jpg"},
+{t:"Mindscape",c:"Explore",d:"Exploring the mind, nurturing emotional well-being, and developing a positive mindset.",img:"images/gallery/g2.jpg.jpg"},
+{t:"Islamic Life Practicing",c:"Learn",d:"Embracing Islamic values and teachings through practical experiences in everyday life.",img:"images/gallery/g6.jpg.jpg"},
+{t:"Trekking",c:"Explore",d:"Exploring nature, embracing adventure, and building resilience through outdoor experiences.",img:"images/gallery/g5.jpg.jpg"},
+{t:"Kickoff",c:"Grow",d:"An energetic beginning to the camp, bringing participants together through excitement, interaction, and inspiration.",img:"images/gallery/g3,jpg.jpg"},
+{t:"Spiritual Gathering",c:"Grow",d:"A peaceful journey of self-reflection, spiritual growth, and reconnecting with our Creator. A moment to nourish the soul and strengthen our faith.",img:"images/gallery/g7.jpg.jpg"},
+{t:"coffee with Sheikhuna",c:"Grow",d:"An informal and inspiring gathering over a cup of coffee with our beloved Sheikhuna. A special opportunity to share thoughts, seek wisdom, and gain valuable insights.",img:"images/gallery/g22.jpg.jpg"}],
+statistics:[{v:3,l:"Camp days"},{v:12,l:"Activities"},{v:3,l:"Program categories"},{v:150,l:"Participants",suffix:"+"}],
+experience:[
+{t:"Arrive curious",img:"images/gallery/g4.jpg.jpg",d:"A warm welcome, new faces and a first look at what the days hold."},
+{t:"Dive in",img:"images/gallery/g8.jpg.jpg",d:"Intensive sessions, hands-on work and conversations that go deeper."},
+{t:"Take wing",img:"images/gallery/g17.jpg.jpg",d:"A closing circle where ideas turn into plans for what comes next."}],
+timeline:[ // DRAFT
+{t:"Check eligibility",d:"Students of Class 8, 9 or 10."},{t:"Make the payment",d:"Payment details to be confirmed by the organisers."},{t:"Fill the form",d:"Enter details and attach your receipt."},{t:"Confirmation",d:"The team contacts you on the number you provide."}],
+/* SCHEDULE — each item is [time, program, mentor, description].
+   Leave mentor "" if none (nothing is shown). Add a description only for sessions.
+   Add or remove rows freely: each day shows as many boxes as it has rows. */
+schedule:{
+"24 Dec":[
+["9:00 – 10:00 AM","Registration & Welcome","",""],
+["10:00 – 11:00 AM","Ice Breaking – Let's Connect","","An engaging session designed to break barriers, build friendships and bring participants together through fun activities and interactive introductions."],
+["11:00 – 11:30 AM","Tea & Refreshments","",""],
+["11:30 AM – 12:30 PM","The Grand Awakening – Official Kick-off","","An energetic beginning to the camp, bringing everyone together with excitement and purpose."],
+["12:30 – 1:30 PM","Lunch & Prayer","",""],
+["1:30 – 2:30 PM","Deen in Daily Life – Islamic Life Practising","","Explore how Islamic teachings can be practised in everyday habits, choices and relationships."],
+["2:30 – 3:30 PM","Inside Out – Mindscape","","Understand the mind, emotions and self, and develop a positive approach towards life's challenges."],
+["3:30 – 4:00 PM","Tea Break","",""],
+["4:00 – 5:00 PM","Outdoor Games & Team Challenges","",""],
+["5:00 – 6:00 PM","Prayer & Garden Walk","",""],
+["6:00 – 7:00 PM","A Cup of Wisdom – Coffee with Sheikhuna","","An informal gathering to share thoughts, seek guidance and gain wisdom through meaningful conversations."],
+["7:00 – 8:00 PM","Prayer & Refreshments","",""],
+["8:00 – 9:00 PM","Dinner","",""],
+["9:00 – 10:00 PM","Campfire / Cultural & Fun Activities","",""],
+["10:00 PM","Sleep","",""]
+],
+"25 Dec":[
+["6:00 – 6:30 AM","Fajr Prayer","",""],
+["6:30 – 7:00 AM","Echoes of the Divine – Tilawatul Quran","","Begin the day with the beautiful recitation of the Holy Quran and reflect on its message."],
+["7:00 – 8:00 AM","Nature Walk & Morning Activities","",""],
+["8:00 – 9:00 AM","Breakfast","",""],
+["9:00 – 10:30 AM","Beyond the Horizon – Career Guidance","","Discover career opportunities, identify personal strengths and develop a clear vision for the future."],
+["10:30 – 11:00 AM","Tea Break","",""],
+["11:00 AM – 12:30 PM","Interactive Games & Group Activities","",""],
+["12:30 – 2:00 PM","Jumu'ah Prayer & Lunch","",""],
+["2:00 – 4:00 PM","Hands of Humanity – Mihras Hospital Visit (Old-age Home Visit)","","Visit elderly residents, share moments with them and develop compassion, gratitude and social responsibility."],
+["4:00 – 4:30 PM","Tea & Refreshments","",""],
+["4:30 – 5:30 PM","Free Time & Garden Walk","",""],
+["5:30 – 6:30 PM","Prayer","",""],
+["6:30 – 7:30 PM","The Soul's Journey – Spiritual Retreat","","Take a pause from the busy world, reconnect with Allah and nurture inner peace."],
+["7:30 – 8:30 PM","Prayer & Dinner","",""],
+["8:30 – 9:30 PM","Campfire & Fellowship","",""],
+["9:30 PM","Sleep","",""]
+],
+"26 Dec":[
+["6:00 – 6:30 AM","Fajr Prayer","",""],
+["6:30 – 7:00 AM","Echoes of the Divine – Tilawatul Quran","","Begin the day with the beautiful recitation of the Holy Quran and reflect on its message."],
+["7:00 – 8:30 AM","Trail of Discovery – Trekking","","Experience nature, teamwork and adventure while stepping outside the comfort zone."],
+["8:30 – 9:30 AM","Breakfast & Refreshments","",""],
+["9:30 – 10:30 AM","Reflection & Sharing Experiences","",""],
+["10:30 – 11:00 AM","Tea Break","",""],
+["11:00 AM – 12:30 PM","Team Games & Fun Challenges","",""],
+["12:30 – 2:00 PM","Prayer & Lunch","",""],
+["2:00 – 2:45 PM","Memories, Feedback & Camp Highlights","",""],
+["2:45 – 3:00 PM","Tea & Refreshments","",""],
+["3:00 – 4:00 PM","The Parent Connect","","Special Session for Parents & Closing Ceremony."]
+]},
+testimonials:[{q:"I came with questions and left with ideas."},{q:"Three days felt like a whole new season."},{q:"I met people who think the way I do."}],
+gallery:[{img:"images/gallery/g1.jpg.jpg",cap:"Opening day"},{img:"images/gallery/g21.jpg.jpg",cap:"Workshop"},{img:"images/gallery/g19.jpg.jpg",cap:"Team activity"},{img:"images/gallery/g4.jpg.jpg",cap:"Closing circle"}],
+about:{intro:"Kuppayam is a winter intensive camp for school students, built around curiosity and growth.",cards:[{t:"Vision",d:"Students who look up and aim higher."},{t:"Mission",d:"Intensive, joyful learning in a supportive community."},{t:"Who it's for",d:"Students studying in Classes 8, 9 and 10. For both Boys and Girls"}]},
+faq:[ // DRAFT answers
+{q:"Who can join?",a:"Students studying in Classes 8, 9 and 10. For both Boys and Girls"},
+{q:"When and where is the camp?",a:"24, 25 and 26 December 2026 at WIRAS, Markaz Knowledge City."},
+{q:"How do I register?",a:"Fill the registration form with your receipt, or call +91 80868 81019."},
+{q:"What is the fee?",a:"The fee to join the camp is ₹2,500. Complete the registration form and upload your payment receipt to confirm your registration."},
+{q:"What should I bring?",a:"Draft: notebook, pen, water bottle and personal essentials. Final list to be confirmed."}],
+registration:{payment:"Complete the registration form and upload your payment receipt. The fee to join the camp is ₹2,500. For assistance or registration support, contact +91 80868 81019.",privacy:"We collect only the details needed for registration. Please register with a parent/guardian's knowledge."},
+contact:{person:"Registration desk",phone:"+91 80868 81019",email:"wiras@markazknowledgecity.com",address:"WIRAS, Markaz Knowledge City",maps:"https://maps.app.goo.gl/NYLkRPfMqhszxkkp7",social:[{name:"Instagram", url:"https://www.instagram.com/wirasofficial?utm_source=ig_web_button_share_sheet&fqnt=ZDNlZDc0MzIxNw=="},{name:"Facebook", url:"https://www.facebook.com/wirasofficial/"}]},
+footer:{copy:"© 2026 Kuppayam 3.0 · Rewaq · Markaz Knowledge City"}};
+const C=CONTENT,I=C.campInfo,$=s=>document.querySelector(s),rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+const G=["#50C878","#4CBB17","#4F7942","#7CFC00","#90EE90","#355E3B"];
+const ph=(i,img)=>img?`background:url(${img}) center/cover`:`background:radial-gradient(60% 80% at 30% 20%,${G[i%6]}aa,transparent),linear-gradient(${150+i*40}deg,#355E3B,#023020)`;
+const logo=(k,cls='')=>{const l=C.logos[k];return l.src?`<img src="${l.src}" alt="${l.alt}" style="max-height:60px;width:auto">`:`<span class="${cls||'ph'}">${l.alt.replace(' logo','')} logo — placeholder</span>`};
+const bigLogo=l=>C.logos.kuppayam.src?`<img src="${C.logos.kuppayam.src}" alt="${I.name}" style="max-width:min(80vw,520px);height:auto">`:`<div class="logo" style="font-size:clamp(3rem,12vw,6rem);color:#fff">${I.name}</div><span class="ph">Kuppayam logo placeholder</span>`;
+$('#ol').innerHTML=bigLogo();
+$('#hl').innerHTML=`<h1 class="rv">${C.logos.kuppayam.src?`<img src="${C.logos.kuppayam.src}" alt="${I.name}" style="max-width:min(86vw,640px);height:auto">`:I.name}</h1>`;
+if(C.hero.image)$('#hbg').style.background=`linear-gradient(#02302066,#023020),url(${C.hero.image}) center bottom/cover`;
+$('#htag').textContent=I.tagline;$('#hpill').innerHTML=`<span>${I.subtitle}</span><span>${I.dates}</span><span>${I.venue}</span>`;
+const NAV=[["home","Home"],["about","About"],["gallery","Gallery"],["programs","Programs"],["faq","FAQ"],["contact","Contact"]];
+$('#nl').innerHTML=NAV.map(n=>`<li><a class="l" href="#${n[0]}">${n[1]}</a></li>`).join('')+`<li class="rg2"><a class="l" href="#register" style="display:none" id="mr">Register</a></li>`;
+$('#ie').textContent=C.introduction.eyebrow;$('#it').textContent=C.introduction.title;$('#ip').innerHTML=C.introduction.paras.map(p=>`<p>${p}</p>`).join('');
+$('#pf').innerHTML=C.programCategories.map((c,i)=>`<button class="fb${i?'':' on'}" data-c="${c}">${c}</button>`).join('');
+$('#pg').innerHTML=C.programs.map((p,i)=>`<article class="glass pc rv" data-c="${p.c}" style="--d:${i*.07}s"><div class="pw"><div class="pi" style="${ph(i,p.img)}"></div></div><div class="pb"><span class="ey">${p.c}</span><h3>${p.t}</h3><p>${p.d}</p></div></article>`).join('');
+$('#pf').onclick=e=>{const b=e.target.closest('.fb');if(!b)return;document.querySelectorAll('.fb').forEach(x=>x.classList.toggle('on',x==b));document.querySelectorAll('.pc').forEach(c=>{const s=b.dataset.c=='All'||c.dataset.c==b.dataset.c;c.style.opacity=0;setTimeout(()=>{c.classList.toggle('h',!s);if(s)requestAnimationFrame(()=>c.style.opacity=1)},250)})};
+$('#sg').innerHTML=C.statistics.map((s,i)=>`<div class="glass st rv" style="--d:${i*.1}s"><b data-v="${s.v}" data-s="${s.suffix||''}">0</b>${s.l}</div>`).join('');
+$('#sy').innerHTML=C.experience.map((e,i)=>`<div class="sr"><div class="sv rv" style="${ph(i*2+1,e.img)}"></div><div class="rv" style="--d:.15s"><div class="n">0${i+1}</div><h3>${e.t}</h3><p style="color:var(--mut)">${e.d}</p></div></div>`).join('');$('#tl').insertAdjacentHTML('beforeend',C.timeline.map((s,i)=>`<div class="glass ts rv" data-n="${i+1}" style="--d:${i*.12}s"><h3>${s.t}</h3><p>${s.d}</p></div>`).join(''));
+const days=Object.keys(C.schedule);$('#dt').innerHTML=days.map((d,i)=>{const [n,m]=d.split(' ');return`<button class="${i?'':'on'}" data-d="${d}"><b>${n}</b>${m} 2026</button>`}).join('');
+function sched(d){$('#sl').innerHTML=C.schedule[d].map((r,i)=>`<div class="glass si" style="animation-delay:${Math.min(i,10)*.05}s;border-radius:20px"><time>${r[0]}</time><div><h4>${r[1]}</h4>${r[2]?`<span class="mn">${r[2]}</span>`:''}${r[3]?`<p class="sd">${r[3]}</p>`:''}</div></div>`).join('')}sched(days[0]);
+$('#dt').onclick=e=>{const b=e.target.closest('button');if(!b)return;document.querySelectorAll('#dt button').forEach(x=>x.classList.toggle('on',x==b));sched(b.dataset.d)};
+function slider(trk,dots,prev,next,n,box){let i=0;const go=k=>{i=(k+n)%n;$(trk).style.transform=`translateX(-${i*100}%)`;document.querySelectorAll(dots+' i').forEach((d,j)=>d.classList.toggle('on',j==i))};
+$(dots).innerHTML=Array.from({length:n},(_,j)=>`<i class="${j?'':'on'}"></i>`).join('');$(prev).onclick=()=>go(i-1);$(next).onclick=()=>go(i+1);
+let x0=null;const b=$(box);b.addEventListener('touchstart',e=>x0=e.touches[0].clientX,{passive:true});b.addEventListener('touchend',e=>{if(x0===null)return;const d=e.changedTouches[0].clientX-x0;if(Math.abs(d)>40)go(i+(d<0?1:-1));x0=null});return go}
+$('#tt').innerHTML=C.testimonials.map(t=>`<div class="sl1"><div class="glass q"><p>“${t.q}”</p></div></div>`).join('');slider('#tt','#td','#tp','#tn',C.testimonials.length,'#ts');
+$('#gt').innerHTML=C.gallery.map((g,i)=>`<div class="sl1"><button class="gl glass" data-i="${i}" style="${ph(i,g.img)}" aria-label="Open ${g.cap}"><span>${g.cap}</span></button></div>`).join('');const gg=slider('#gt','#gd','#gp','#gn',C.gallery.length,'#gs');
+let li=0;const lbS=k=>{li=(k+C.gallery.length)%C.gallery.length;$('#li').style.cssText=ph(li,C.gallery[li].img)};
+$('#gt').onclick=e=>{const b=e.target.closest('.gl');if(!b)return;lbS(+b.dataset.i);$('#lb').classList.add('o');$('#lc').focus()};
+const lbX=()=>$('#lb').classList.remove('o');$('#lc').onclick=lbX;$('#lp').onclick=()=>lbS(li-1);$('#ln').onclick=()=>lbS(li+1);$('#lb').onclick=e=>{if(e.target.id=='lb')lbX()};
+addEventListener('keydown',e=>{if(!$('#lb').classList.contains('o'))return;if(e.key=='Escape')lbX();if(e.key=='ArrowLeft')lbS(li-1);if(e.key=='ArrowRight')lbS(li+1)});
+let lx=null;$('#lb').addEventListener('touchstart',e=>lx=e.touches[0].clientX,{passive:true});$('#lb').addEventListener('touchend',e=>{const d=e.changedTouches[0].clientX-lx;if(Math.abs(d)>50)lbS(li+(d<0?1:-1))});
+$('#ab').textContent=C.about.intro;$('#ag').innerHTML=C.about.cards.map((c,i)=>`<div class="glass ac rv" style="--d:${i*.12}s"><h3>${c.t}</h3><p style="color:var(--mut)">${c.d}</p></div>`).join('');
+$('#fq').innerHTML=C.faq.map((f,i)=>`<div class="glass fi rv"><button aria-expanded="false" aria-controls="fa${i}"><span>${f.q}</span><i>+</i></button><div class="fa" id="fa${i}"><div><p>${f.a}</p></div></div></div>`).join('');
+$('#fq').onclick=e=>{const b=e.target.closest('button');if(!b)return;const it=b.parentElement,o=!it.classList.contains('o');it.classList.toggle('o',o);b.setAttribute('aria-expanded',o)};
+$('#pay').textContent=C.registration.payment;$('#pn').textContent=C.registration.privacy;
+/* form */
+let file=null;const ok=['image/jpeg','image/png','image/webp','application/pdf'];
+const fe=$('#fe'),dz=$('#dz'),fi=$('#f');
+function setFile(f){fe.textContent='';if(!f)return;if(!ok.includes(f.type)){fe.textContent='Please upload a JPG, PNG, WebP or PDF.';return}if(f.size>5*1048576){fe.textContent='File is larger than 5 MB.';return}
+file=f;$('#pv').innerHTML=`<p>${f.name.replace(/[<>]/g,'')} · <a href="#" id="rmv" style="color:var(--c7)">Remove</a> · tap to replace</p>`+(f.type.startsWith('image')?`<img alt="Receipt preview" src="${URL.createObjectURL(f)}">`:'')}
+dz.onclick=e=>{if(e.target.id=='rmv'){e.preventDefault();e.stopPropagation();file=null;fi.value='';$('#pv').innerHTML='';return}fi.click()};dz.onkeydown=e=>{if(e.key=='Enter'||e.key==' '){e.preventDefault();fi.click()}};
+fi.onchange=()=>setFile(fi.files[0]);['dragover','dragenter'].forEach(v=>dz.addEventListener(v,e=>{e.preventDefault();dz.classList.add('dr')}));['dragleave','drop'].forEach(v=>dz.addEventListener(v,e=>{e.preventDefault();dz.classList.remove('dr')}));dz.addEventListener('drop',e=>setFile(e.dataTransfer.files[0]));
+const chk={n:v=>v.trim().length>=2||'Enter your full name.',c:v=>!!v||'Select a class.',p:v=>/^\+?[\d\s-]{10,15}$/.test(v.trim())||'Enter a valid phone number.',e:v=>/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v.trim())||'Enter a valid email.'};
+$('#fm').onsubmit=e=>{e.preventDefault();let bad=0;for(const k in chk){const el=$('#'+k),r=chk[k](el.value);el.nextElementSibling.textContent=r===true?'':r;if(r!==true)bad++}
+if(!file){fe.textContent='Please attach your payment receipt.';bad++}if(bad)return;
+const b=$('#sb');b.disabled=true;
+/* BACKEND: this static page has no server. Connect your own endpoint here (POST FormData to your API/DB/storage). Until then, details are handed to the registration desk via WhatsApp; the receipt must be attached manually. */
+const msg=`Kuppayam 3.0 registration%0AName: ${encodeURIComponent($('#n').value.trim())}%0AClass: ${encodeURIComponent($('#c').value)}%0APhone: ${encodeURIComponent($('#p').value.trim())}%0AEmail: ${encodeURIComponent($('#e').value.trim())}%0ANotes: ${encodeURIComponent($('#a').value.trim())}%0A(Receipt attached in chat)`;
+$('#fm').querySelectorAll('.fd,.pay,#pn,#sb').forEach(x=>x.style.display='none');$('#ok').style.display='block';
+$('#okt').innerHTML=`Nothing has been saved on a server yet. Send these details with your receipt to the registration desk: <br><br><a class="btn" target="_blank" rel="noopener" href="https://wa.me/${I.wa}?text=${msg}">Send via WhatsApp</a><br><br>Registration is confirmed only by the organisers; payment is not verified automatically.`;issueIdCard({name:$('#n').value,cls:$('#c').value,phone:$('#p').value,email:$('#e').value})};
+const ct=C.contact;$('#cg').innerHTML=[["Contact",ct.person,""],["Phone",ct.phone,`tel:${ct.phone.replace(/\s/g,'')}`],["WhatsApp","Message us",`https://wa.me/${I.wa}`],["Email",ct.email||"Email: to be added",ct.email?`mailto:${ct.email}`:""],["Venue",ct.address,ct.maps],["Social",ct.social.length?ct.social.map(s=>`<a href="${s.url}" target="_blank" rel="noopener noreferrer">${s.name}</a>`).join(' · '):"Links: to be added",""]].map((c,i)=>{const t=c[2]?'a':'div';return`<${t} class="glass cc rv" ${c[2]?`href="${c[2]}" target="_blank" rel="noopener"`:''} style="--d:${i*.08}s;border-radius:${i%2?'40px 12px':'12px 40px'}"><small>${c[0]}</small><b>${c[1]}</b></${t}>`}).join('');
+$('#fl').innerHTML=bigLogo();$('#ftag').textContent=I.tagline;$('#fn').innerHTML=NAV.map(n=>`<li><a href="#${n[0]}">${n[1]}</a></li>`).join('');
+$('#lg3').innerHTML=['wiras','rewaq','markaz'].map(k=>`<div class="glass" style="padding:10px 16px;border-radius:16px">${logo(k)}</div>`).join('');$('#cp').textContent=C.footer.copy;
+$('#wa').href=`https://wa.me/${I.wa}?text=${encodeURIComponent('Hello, I have a question about Kuppayam 3.0.')}`;
+/* motion */
+setTimeout(()=>{$('#open').classList.add('done');document.querySelectorAll('#home .rv').forEach(e=>e.classList.add('in'))},rm?100:2400);
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;e.target.classList.add('in');io.unobserve(e.target);const n=e.target.querySelector&&e.target.querySelector('b[data-v]');if(n)count(n);if(e.target.classList.contains('ts'))$('#tl .ln').style.height=(e.target.offsetTop+e.target.offsetHeight)+'px'}),{threshold:.15});
+document.querySelectorAll('.rv').forEach(e=>io.observe(e));
+function count(n){const v=+n.dataset.v,s=n.dataset.s;if(rm){n.textContent=v+s;return}const t0=performance.now();(function f(t){const p=Math.min((t-t0)/1400,1);n.textContent=Math.round(v*(1-Math.pow(1-p,3)))+s;if(p<1)requestAnimationFrame(f)})(t0)}
+const ib=$('#ib'),nav=$('#nav'),secs=NAV.map(n=>$('#'+n[0]));
+function sc(){const y=scrollY;nav.classList.toggle('s',y>40);$('#up').classList.toggle('v',y>700);const r=ib.getBoundingClientRect(),p=Math.min(Math.max((innerHeight-r.top)/(innerHeight*.8),0),1);if(!rm){ib.style.transform=`scale(${.82+.18*p}) translateY(${(1-p)*40}px)`;ib.style.opacity=.3+.7*p;ib.style.borderRadius=(60-34*p)+'px'}
+$('#hbg').style.transform=rm?'':`translateY(${y*.15}px) scale(1.05)`;let cur='home';secs.forEach(s=>{if(s.getBoundingClientRect().top<innerHeight*.4)cur=s.id});document.querySelectorAll('nav a.l').forEach(a=>a.classList.toggle('on',a.getAttribute('href')=='#'+cur))}
+addEventListener('scroll',sc,{passive:true});sc();
+$('#bg').onclick=()=>{const o=$('#nl').classList.toggle('o');$('#bg').setAttribute('aria-expanded',o);$('#mr').style.display=o?'block':'none'};$('#nl').onclick=e=>{if(e.target.tagName=='A'){$('#nl').classList.remove('o')}};
+$('#up').onclick=()=>scrollTo({top:0,behavior:rm?'auto':'smooth'});
+</script>
+</body>
+</html>
